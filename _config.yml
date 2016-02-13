@@ -9,7 +9,7 @@ title:               Suhith's Blog
 tagline:             Sometimes I Even Write Stuff
 url:                 http://suhith.com
 paginate:            1
-baseurl:             "suhithr.github.io/blog/"
+baseurl:             ""
 
 # Assets
 #
@@ -32,6 +32,4 @@ github:
 # Gems
 gems:
   - jekyll-paginate
-  - redcarpet
   - jekyll-gist
-  - pygments.rb
