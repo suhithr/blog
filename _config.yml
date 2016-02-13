@@ -6,7 +6,7 @@ permalink:           pretty
 
 # Setup
 title:               Suhith's Blog
-tagline:             Sometimes I Even Write Stuff
+tagline:             This is where I write
 url:                 http://suhith.com
 paginate:            1
 baseurl:             ""
@@ -33,3 +33,5 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
+
+future: true
