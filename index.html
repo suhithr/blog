@@ -12,8 +12,17 @@ title: Home
       </a>
     </h1>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: "%A, %B %-d, %Y" }}</time>
+    {% capture read_time %}
+      {{ page.content | number_of_words | divided_by: 250 }}
+    {% endcapture %}
+    <div class="post-length">
+    {% if read_time != '0' %}
+    {{ read_time }} min read
+    {% else %}
+      Won't even take a minute
+    {% endif %}
+    </div>
     {{ post.content }}
   </article>
   {% endfor %}
