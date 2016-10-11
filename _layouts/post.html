@@ -4,7 +4,7 @@ layout: default
 
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="p'ost-date">{{ page.date | date: "%A, %B %-d, %Y" }}</time>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: "%A, %B %-d, %Y" }}</time>
   {% capture read_time %}
     {{ page.content | number_of_words | divided_by: 250 }}
   {% endcapture %}
@@ -15,6 +15,7 @@ layout: default
     Won't even take a minute
   {% endif %}
   </div>
+  <br>
   {{ content }}
 </article>
 

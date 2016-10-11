@@ -6,7 +6,7 @@ permalink:           pretty
 
 # Setup
 title:               Suhith Rajesh
-tagline:             This is where I write
+tagline:             I like to build things
 url:                 http://suhith.com
 paginate:            1
 baseurl:             ""
@@ -22,7 +22,7 @@ sass:
 author:
   name:              Suhith Rajesh
   url:               http://suhith.com
-  email:             hi@suhith.com
+  email:             
 
 # Custom vars
 version:             0.0.1
