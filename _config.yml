@@ -7,7 +7,7 @@ permalink:           pretty
 # Setup
 title:               Suhith Rajesh
 tagline:             I like to build things
-url:                 http://suhith.com
+url:                 http://blog.suhith.com
 paginate:            1
 baseurl:             ""
 
@@ -33,5 +33,6 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jemoji
 
 future: true
