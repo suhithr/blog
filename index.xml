@@ -11,7 +11,15 @@
     </image>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 17:01:20 -0700</lastBuildDate>
     <atom:link href="https://blog.suhith.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How a tiled matmul works</title>
+      <link>https://blog.suhith.com/posts/cuda-matmul-by-hand/</link>
+      <pubDate>Mon, 15 Sep 2025 17:01:20 -0700</pubDate>
+      <guid>https://blog.suhith.com/posts/cuda-matmul-by-hand/</guid>
+      <description>&lt;h1 id=&#34;writing-a-tiled-cuda-matmul-&#34;&gt;Writing a tiled CUDA matmul 🚀&lt;/h1&gt;
+&lt;p&gt;This year during my time at the &lt;a href=&#34;https://www.recurse.com/&#34;&gt;Recurse Center&lt;/a&gt;, I worked through the various optimizations presented in Simon Boehm&amp;rsquo;s iconic post &lt;a href=&#34;https://siboehm.com/articles/22/CUDA-MMM&#34;&gt;How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog&lt;/a&gt;. I approached these as a series of puzzles where I would read as little as possible, just the title or the first paragraphs describing the algorithm and then implement it in CUDA/C++. This was an exercise in writing &amp;amp; debugging CUDA along with implementing kernel code from a high level algorithm.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
